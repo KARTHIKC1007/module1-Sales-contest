@@ -1,0 +1,90 @@
+.contest-table {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-weight: bold;
+  border-bottom: 1px solid #eaeaea;
+}
+
+td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.status {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.status.upcoming {
+  background-color: #e6f7ff;
+  color: #1890ff;
+}
+
+.status.onlogged {
+  background-color: #f9f0ff;
+  color: #722ed1;
+}
+
+.status.on-going {
+  background-color: #fff7e6;
+  color: #fa8c16;
+}
+
+.status.complete {
+  background-color: #f6ffed;
+  color: #52c41a;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.prev-btn, .next-btn, .page-btn {
+  background: none;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.page-btn.active {
+  background-color: #004080;
+  color: white;
+  border-color: #004080;
+}
+
+.ellipsis {
+  margin: 0 5px;
+}
+
+.items-display {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.items-per-page {
+  margin-left: 8px;
+  padding: 4px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+}

@@ -1,0 +1,49 @@
+.leader-board {
+  padding: 20px;
+}
+
+.board-title {
+  color: #004080;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.leaders-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.leader-card {
+  display: flex;
+  align-items: center;
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.leader-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.leader-info {
+  flex: 1;
+}
+
+.leader-name {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.target-increment, .target-achieved {
+  font-size: 12px;
+  color: #004080;
+}
+
+.target-increment {
+  margin-bottom: 5px;
+}

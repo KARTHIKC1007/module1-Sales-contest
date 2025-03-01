@@ -1,0 +1,49 @@
+.department-donut {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.donut-chart-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.donut-chart {
+  width: 180px;
+  height: 180px;
+}
+
+.department-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.department-table th {
+  font-size: 12px;
+  text-align: left;
+  padding: 8px;
+  color: #666;
+  font-weight: normal;
+  background-color: transparent;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.department-table td {
+  padding: 8px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.dept-indicator {
+  display: flex;
+  align-items: center;
+}
+
+.color-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
